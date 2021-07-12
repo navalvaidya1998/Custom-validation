@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Registration Form</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/formhack.css">
+
+</head>
+<body>
+
+	<div class="container">
+		<form class="registration" id="registration" action="otp.html" method="GET">
+			<h1>Registration Form</h1>
+
+			<label for="username">
+				<span>Full Name</span>
+
+				<input type="text" id="username" minlength="4" autocomplete="off" required>
+
+				<ul class="input-requirements">
+					<li>At least 4 characters long</li>
+					<li>Must only contain letters (no special characters)</li>
+					<li>Minimum 2 words are needed</li>
+				</ul>
+			</label>
+
+			<label for="email">
+				<span>E-mail</span>
+
+				<input type="text" id="email" autocomplete="off" required>
+
+				<ul class="input-requirements">
+					<li>E-mail is required</li>
+					<li>Enter corrrect email format</li>
+				</ul>
+			</label>
+
+			<label for="number">
+				<span>Phone Number</span>
+
+				<input type="text" id="number" maxlength="16" autocomplete="off" required>
+
+				<ul class="logo" id="operator">
+					<li><img src="img/jio.png" alt=""></li>
+					<li><img src="img/idea.png" alt=""></li>
+					<li><img src="img/vodafone.png" alt=""></li>
+					<li><h5 id="state"></h5></li>
+				</ul>
+			</label>
+
+			<br>
+
+			<input type="submit">
+
+		</form>
+	</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
