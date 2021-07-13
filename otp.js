@@ -7,7 +7,7 @@ const init = (e) => {
     const firstName = localStorage.getItem('firstName')
     const phoneNumber = localStorage.getItem('phoneNumber')
 
-    const str = "Dear "+firstName+", Thank you for your inquiry. A 4 digit random number has been sent to your phone number: "+phoneNumber+", please enter in the following box and submit for confirmation."
+    const str = "Dear "+firstName+", Thank you for your inquiry. A 4 digit verification number has been sent to your phone number: "+phoneNumber+", please enter in the following box and submit for confirmation."
 
     otp.innerHTML = str
 
